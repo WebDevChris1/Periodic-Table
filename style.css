@@ -116,3 +116,85 @@ td {
 .text {
   text-align: right;
 }
+
+/* Ledger */
+
+.ledger-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.ledger-text {
+  height: 10px;
+  border: none;
+  font-size: 0.65em;
+}
+
+.ledger-box {
+  height: 20px;
+  width: 20px;
+  border: none;
+  padding: 0 15px;
+}
+
+.ledger-light-orange {
+  background-color: #fde2a9;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.ledger-med-orange {
+  background-color: #ffc48f;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+.ledger-orange {
+  background-color: #f9a985;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.ledger-green {
+  background-color: #a9d9bc;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.ledger-lime-green {
+  background-color: #e8ee96;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.ledger-white {
+  background-color: #fff;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.ledger-blue {
+  background-color: #b4e6fa;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.ledger-pink {
+  background-color: #f4d1d8;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.extra-txt {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+}
