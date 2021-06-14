@@ -7,47 +7,42 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* Styles */
+
 .main-table-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blanchedalmond;
+  width: 100vw;
 }
 
-table,
 th,
 td {
   border: 1px solid black;
 }
 
-table {
-  display: flex;
-  flex-shrink: 1;
-}
-
 td {
   width: 50px;
   height: 50px;
-  /* background-color: pink; */
   padding: 0 2px;
   padding-top: 1px;
 }
 
 .element {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.5em;
   display: flex;
   justify-content: center;
 }
 
 .element-num {
-  font-size: 0.9em;
-  font-weight: 400;
+  font-size: 0.7em;
+  font-weight: bold;
 }
 
 .num {
   border: none;
-  font-size: 0.75em;
+  font-size: 0.65em;
 }
 
 .left-num {
@@ -57,4 +52,67 @@ td {
 .out-num {
   text-align: center;
   padding-top: 30px;
+}
+
+.period {
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.group {
+  text-align: center;
+}
+
+/* Colors */
+
+.light-orange {
+  background-color: #fde2a9;
+}
+
+.med-orange {
+  background-color: #ffc48f;
+}
+
+.orange {
+  background-color: #f9a985;
+}
+
+.lime-green {
+  background-color: #e8ee96;
+}
+
+.green {
+  background-color: #a9d9bc;
+}
+
+.blue {
+  background-color: #b4e6fa;
+}
+
+.purple {
+  background-color: #cfc3e2;
+}
+
+.pink {
+  background-color: #f4d1d8;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+/* sub table */
+
+.sub-table-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding-top: 25px;
+}
+
+.text {
+  text-align: right;
 }
