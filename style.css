@@ -9,6 +9,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  position: relative;
+}
+
 /* Styles */
 
 .main-table-wrapper {
@@ -239,4 +243,33 @@ td {
   width: 100px;
   display: flex;
   align-items: flex-start;
+}
+
+/* Social Media */
+
+.social-media-wrapper {
+  text-align: right;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.twitter {
+  padding-bottom: 10px;
+}
+
+.social-icons a:visited {
+  color: black;
+}
+
+.social-icons a:hover {
+  color: red;
+}
+
+@media screen and (max-width: 1100px) {
+  .social-media-wrapper {
+    display: none;
+  }
 }
