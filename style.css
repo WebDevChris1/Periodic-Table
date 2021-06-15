@@ -43,6 +43,8 @@ td {
 .num {
   border: none;
   font-size: 0.65em;
+  /* turn on to see table */
+  /* border: 1px solid black; */
 }
 
 .left-num {
@@ -122,7 +124,7 @@ td {
 .ledger-wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 75px;
 }
 
 .ledger-text {
@@ -188,6 +190,13 @@ td {
 
 .ledger-pink {
   background-color: #f4d1d8;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.ledger-purple {
+  background-color: #cfc3e2;
   border: 1px solid black;
   height: 15px;
   width: 15px;
